@@ -16,19 +16,6 @@ AgriFlow is a modern, cloud-native microservices application designed to address
 - **Notification system** for price alerts and market changes
 - **Production-ready** with monitoring, logging, and tracing
 
-## 🧱 Architecture
-
-<div align="center">
-  <img src="docs/architecture-diagram.png" alt="AgriFlow Architecture" width="800"/>
-</div>
-
-AgriFlow consists of the following microservices:
-
-- **Ingestor Service**: Collects raw data from various market sources
-- **ETL Service**: Cleans, transforms, and enriches the raw data
-- **API Gateway**: Provides a unified API interface for clients
-- **Notifier Service**: Sends alerts based on configured triggers
-
 ## 🛠️ Tech Stack
 
 <div align="center">
@@ -44,6 +31,20 @@ AgriFlow consists of the following microservices:
     <img src="https://img.shields.io/badge/helm-%230F1689.svg?style=for-the-badge&logo=helm&logoColor=white" alt="Helm">
   </p>
 </div>
+
+## 🧱 Architecture
+
+<div align="center">
+  <img src="docs/architecture-diagram.png" alt="AgriFlow Architecture" width="800"/>
+</div>
+
+AgriFlow consists of the following microservices:
+
+- **Ingestor Service**: Collects raw data from various market sources
+- **ETL Service**: Cleans, transforms, and enriches the raw data
+- **API Gateway**: Provides a unified API interface for clients
+- **Notifier Service**: Sends alerts based on configured triggers
+
 
 ### Backend
 - **Language**: Go
@@ -74,7 +75,7 @@ AgriFlow consists of the following microservices:
 1. Clone the repository
 ```bash
 git clone https://github.com/njange/AgriFlow.git
-cd OpenAgriFlow
+cd AgriFlow
 ```
 
 2. Start the local development environment
